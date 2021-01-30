@@ -1,0 +1,9 @@
+D:\Lexus\GitHub Projects\SpionExam\Spion\Spion\bin\Debug\net45\Spion.exe.config
+D:\Lexus\GitHub Projects\SpionExam\Spion\Spion\bin\Debug\net45\Spion.exe
+D:\Lexus\GitHub Projects\SpionExam\Spion\Spion\bin\Debug\net45\Spion.pdb
+D:\Lexus\GitHub Projects\SpionExam\Spion\Spion\obj\Debug\net45\Spion.csprojAssemblyReference.cache
+D:\Lexus\GitHub Projects\SpionExam\Spion\Spion\obj\Debug\net45\Spion.AssemblyInfoInputs.cache
+D:\Lexus\GitHub Projects\SpionExam\Spion\Spion\obj\Debug\net45\Spion.AssemblyInfo.cs
+D:\Lexus\GitHub Projects\SpionExam\Spion\Spion\obj\Debug\net45\Spion.csproj.CoreCompileInputs.cache
+D:\Lexus\GitHub Projects\SpionExam\Spion\Spion\obj\Debug\net45\Spion.exe
+D:\Lexus\GitHub Projects\SpionExam\Spion\Spion\obj\Debug\net45\Spion.pdb
