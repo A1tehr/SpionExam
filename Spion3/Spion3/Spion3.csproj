@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\delete.png" />
+    <None Remove="images\edit.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\delete.png" />
+    <Resource Include="images\edit.png" />
+  </ItemGroup>
+
+</Project>

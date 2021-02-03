@@ -14,7 +14,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45887564-2c6c-46bf-9f28-5672b387cb20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Spion/Listener.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Spion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Spion/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spion/Listener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Spion/Listener.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spion/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Spion/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spion/Spion.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Spion/Spion.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spion/bin/Debug/net45/Spion.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Spion/bin/Debug/net45/Spion.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spion/bin/Debug/net45/Spion.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Spion/bin/Debug/net45/Spion.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spion/obj/Debug/net45/Spion.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Spion/obj/Debug/net45/Spion.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spion/obj/Debug/net45/Spion.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Spion/obj/Debug/net45/Spion.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spion/obj/Debug/net45/Spion.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Spion/obj/Debug/net45/Spion.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spion/obj/Debug/net45/Spion.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Spion/obj/Debug/net45/Spion.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spion/obj/Debug/net45/Spion.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Spion/obj/Debug/net45/Spion.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spion/obj/Debug/net45/Spion.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Spion/obj/Debug/net45/Spion.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spion/obj/Spion.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Spion/obj/Spion.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spion/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Spion/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spion/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Spion/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spion/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Spion/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spion/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Spion/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,11 +40,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A2EB3920-7F89-43A5-AD89-57AA73D6DD51/fe/0d07d9b0/Hook.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A2EB3920-7F89-43A5-AD89-57AA73D6DD51/34/e1694944/GlobalEventFacade.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A2EB3920-7F89-43A5-AD89-57AA73D6DD51/5d/14fb73e5/Subscribe.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A2EB3920-7F89-43A5-AD89-57AA73D6DD51/a3/6e4f114b/Sequence.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A2EB3920-7F89-43A5-AD89-57AA73D6DD51/34/46725b2d/GlobalKeyListener.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Spion/Listener.cs" />
+        <option value="$PROJECT_DIR$/Spion/Spion.csproj" />
+        <option value="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A2EB3920-7F89-43A5-AD89-57AA73D6DD51/fe/0d07d9b0/Hook.cs" />
         <option value="$PROJECT_DIR$/Spion/Program.cs" />
+        <option value="$PROJECT_DIR$/Spion/Listener.cs" />
       </list>
     </option>
   </component>
@@ -75,13 +100,15 @@
       <option name="presentableId" value="Default" />
       <updated>1612037388903</updated>
       <workItem from="1612037396375" duration="4082000" />
+      <workItem from="1612079726423" duration="1592000" />
+      <workItem from="1612211892495" duration="1686000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -93,26 +120,27 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="684" key="GridCell.Tab.0.bottom" timestamp="1612041483175">
+    <state width="1877" height="450" key="GridCell.Tab.0.bottom" timestamp="1612213598534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="684" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612041483175" />
-    <state width="1877" height="684" key="GridCell.Tab.0.center" timestamp="1612041483175">
+    <state width="1877" height="450" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612213598534" />
+    <state width="1877" height="450" key="GridCell.Tab.0.center" timestamp="1612213598534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="684" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612041483175" />
-    <state width="1877" height="684" key="GridCell.Tab.0.left" timestamp="1612041483175">
+    <state width="1877" height="450" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612213598534" />
+    <state width="1877" height="450" key="GridCell.Tab.0.left" timestamp="1612213598534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="684" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612041483175" />
-    <state width="1877" height="684" key="GridCell.Tab.0.right" timestamp="1612041483175">
+    <state width="1877" height="450" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612213598534" />
+    <state width="1877" height="450" key="GridCell.Tab.0.right" timestamp="1612213598534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="684" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612041483175" />
+    <state width="1877" height="450" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612213598534" />
   </component>
 </project>

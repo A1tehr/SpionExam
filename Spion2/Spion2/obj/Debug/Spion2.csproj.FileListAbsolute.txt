@@ -1,0 +1,15 @@
+D:\Lexus\GitHub Projects\SpionExam\Spion2\Spion2\bin\Debug\Spion2.exe.config
+D:\Lexus\GitHub Projects\SpionExam\Spion2\Spion2\bin\Debug\Spion2.exe
+D:\Lexus\GitHub Projects\SpionExam\Spion2\Spion2\bin\Debug\Spion2.pdb
+D:\Lexus\GitHub Projects\SpionExam\Spion2\Spion2\obj\Debug\Spion2.csprojAssemblyReference.cache
+D:\Lexus\GitHub Projects\SpionExam\Spion2\Spion2\obj\Debug\MainWindow.g.cs
+D:\Lexus\GitHub Projects\SpionExam\Spion2\Spion2\obj\Debug\App.g.cs
+D:\Lexus\GitHub Projects\SpionExam\Spion2\Spion2\obj\Debug\Spion2_MarkupCompile.cache
+D:\Lexus\GitHub Projects\SpionExam\Spion2\Spion2\obj\Debug\Spion2_MarkupCompile.lref
+D:\Lexus\GitHub Projects\SpionExam\Spion2\Spion2\obj\Debug\MainWindow.baml
+D:\Lexus\GitHub Projects\SpionExam\Spion2\Spion2\obj\Debug\Spion2.g.resources
+D:\Lexus\GitHub Projects\SpionExam\Spion2\Spion2\obj\Debug\Spion2.Properties.Resources.resources
+D:\Lexus\GitHub Projects\SpionExam\Spion2\Spion2\obj\Debug\Spion2.csproj.GenerateResource.cache
+D:\Lexus\GitHub Projects\SpionExam\Spion2\Spion2\obj\Debug\Spion2.csproj.CoreCompileInputs.cache
+D:\Lexus\GitHub Projects\SpionExam\Spion2\Spion2\obj\Debug\Spion2.exe
+D:\Lexus\GitHub Projects\SpionExam\Spion2\Spion2\obj\Debug\Spion2.pdb
