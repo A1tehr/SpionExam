@@ -1,6 +1,7 @@
 ﻿using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -35,8 +36,13 @@ namespace Spion3
         {
             if (!SecretWordsClicked)
             {
+                if (LogClicked)
+                {
+                    Grid_Logs.Visibility = Visibility.Collapsed;
+                    LogClicked = false;
+                }
                 Grid_SecretWords.Visibility = Visibility.Visible;
-                var words = (string[])MainWindow.CurrentRegistry.GetValue("Words");
+                var words = (string[])CurrentRegistry.GetValue("Words");
                 if(words != null)
                 {
                     for (int i = 0; i < words.Length; i++)
@@ -52,12 +58,57 @@ namespace Spion3
                 Grid_SecretWords.Visibility = Visibility.Collapsed;
                 SecretWordsClicked = false;
             }
-            
         }
 
         private void Button_AddWordClick(object sender, RoutedEventArgs e)
         {
-            new SecretWord();
+            if (SecretWord.CanAddWord)
+            {
+                new SecretWord();
+            } else
+            {
+                MessageBox.Show("Закончите редактирование секретного слова", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+           
+        }
+
+        private bool LogClicked = false;
+        private void Button_LogClick(object sender, RoutedEventArgs e)
+        {
+            if (!LogClicked)
+            {
+                if (SecretWordsClicked)
+                {
+                    Grid_SecretWords.Visibility = Visibility.Collapsed;
+                    SecretWordsClicked = false;
+                } 
+                    
+                Grid_Logs.Visibility = Visibility.Visible;
+
+                foreach(var file in Directory.GetFiles(App.HTML))
+                {
+                    new Log(file.Substring(file.LastIndexOf('\\') + 1));
+                }
+
+                LogClicked = true;
+            }
+            else
+            {
+                StackPanel_Logs.Children.Clear();
+                Grid_Logs.Visibility = Visibility.Collapsed;
+                LogClicked = false;
+            }
+        }
+
+        private void Button_CreateLogClick(object sender, RoutedEventArgs e)
+        {
+            if(Directory.GetFiles(App.Temp).Length == 0)
+            {
+                MessageBox.Show("Не из чего создавать логи", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+            } else
+            {
+                new Log();
+            }
         }
     }
 }

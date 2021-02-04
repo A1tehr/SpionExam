@@ -19,3 +19,5 @@ D:\Lexus\GitHub Projects\SpionExam\Spion3\Spion3\obj\Debug\netcoreapp3.1\Spion3.
 D:\Lexus\GitHub Projects\SpionExam\Spion3\Spion3\obj\Debug\netcoreapp3.1\Spion3.dll
 D:\Lexus\GitHub Projects\SpionExam\Spion3\Spion3\obj\Debug\netcoreapp3.1\Spion3.pdb
 D:\Lexus\GitHub Projects\SpionExam\Spion3\Spion3\obj\Debug\netcoreapp3.1\Spion3.genruntimeconfig.cache
+D:\Lexus\GitHub Projects\SpionExam\Spion3\Spion3\obj\Debug\netcoreapp3.1\Log.g.cs
+D:\Lexus\GitHub Projects\SpionExam\Spion3\Spion3\obj\Debug\netcoreapp3.1\Log.baml

@@ -9,11 +9,15 @@
   <ItemGroup>
     <None Remove="images\delete.png" />
     <None Remove="images\edit.png" />
+    <None Remove="images\html.png" />
+    <None Remove="images\save.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="images\delete.png" />
     <Resource Include="images\edit.png" />
+    <Resource Include="images\html.png" />
+    <Resource Include="images\save.png" />
   </ItemGroup>
 
 </Project>

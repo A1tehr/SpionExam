@@ -19,6 +19,15 @@ namespace Spion3
     /// </summary>
     public partial class SecretWord : UserControl
     {
+        public static bool CanAddWord { get
+            {
+                foreach(var word in MainWindow.Instance.StackPanel_WordList.Children)
+                {
+                    if ((word as SecretWord).Edit) return false;
+                }
+                return true;
+            }
+        }
         public int Index { private set; get; }
         private string _word;
         public string Word {
