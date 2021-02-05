@@ -1,4 +1,5 @@
 ﻿using Microsoft.Win32;
+using System.Diagnostics;
 using System.IO;
 using System.Windows;
 
@@ -16,6 +17,17 @@ namespace Spion3
             Instance = this;
             CurrentRegistry = Registry.CurrentUser.CreateSubKey("KeySpion");
             InitializeComponent();
+
+            var procceses = Process.GetProcessesByName("Spion");
+            if(procceses.Length > 0)
+            {
+                Button_StartSpion.Visibility = Visibility.Collapsed;
+                Button_CloseSpion.Visibility = Visibility.Visible;
+            } else
+            {
+                Button_StartSpion.Visibility = Visibility.Visible;
+                Button_CloseSpion.Visibility = Visibility.Collapsed;
+            }
         }
 
         private bool SecretWordsClicked = false;
@@ -91,10 +103,31 @@ namespace Spion3
         {
             if(Directory.GetFiles(App.Temp).Length == 0)
             {
-                MessageBox.Show("Не из чего создавать логи", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("Не из чего создавать логин", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
             } else
             {
                 new Log();
+            }
+        }
+
+        private void Button_StartSpionClick(object sender, RoutedEventArgs e)
+        {
+            Process p = new Process();
+            p.StartInfo.FileName = Directory.GetCurrentDirectory() + "/Spion.exe";
+            p.StartInfo.Arguments = "fsdhjfweohfgdnsvklhstsdfax";
+            p.Start();
+            Button_StartSpion.Visibility = Visibility.Collapsed;
+            Button_CloseSpion.Visibility = Visibility.Visible;
+        }
+
+        private void Button_CloseSpionClick(object sender, RoutedEventArgs e)
+        {
+            Button_StartSpion.Visibility = Visibility.Visible;
+            Button_CloseSpion.Visibility = Visibility.Collapsed;
+            var procces = Process.GetProcessesByName("Spion");
+            foreach(var proc in procces)
+            {
+                proc.Kill();
             }
         }
     }
