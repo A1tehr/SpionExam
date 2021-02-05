@@ -21,3 +21,24 @@ D:\Lexus\GitHub Projects\SpionExam\Spion3\Spion3\obj\Debug\netcoreapp3.1\Spion3.
 D:\Lexus\GitHub Projects\SpionExam\Spion3\Spion3\obj\Debug\netcoreapp3.1\Spion3.genruntimeconfig.cache
 D:\Lexus\GitHub Projects\SpionExam\Spion3\Spion3\obj\Debug\netcoreapp3.1\Log.g.cs
 D:\Lexus\GitHub Projects\SpionExam\Spion3\Spion3\obj\Debug\netcoreapp3.1\Log.baml
+C:\Users\Admin\Documents\GitHub\SpionExam\Spion3\Spion3\bin\Debug\netcoreapp3.1\Spion3.exe
+C:\Users\Admin\Documents\GitHub\SpionExam\Spion3\Spion3\bin\Debug\netcoreapp3.1\Spion3.deps.json
+C:\Users\Admin\Documents\GitHub\SpionExam\Spion3\Spion3\bin\Debug\netcoreapp3.1\Spion3.runtimeconfig.json
+C:\Users\Admin\Documents\GitHub\SpionExam\Spion3\Spion3\bin\Debug\netcoreapp3.1\Spion3.runtimeconfig.dev.json
+C:\Users\Admin\Documents\GitHub\SpionExam\Spion3\Spion3\bin\Debug\netcoreapp3.1\Spion3.dll
+C:\Users\Admin\Documents\GitHub\SpionExam\Spion3\Spion3\bin\Debug\netcoreapp3.1\Spion3.pdb
+C:\Users\Admin\Documents\GitHub\SpionExam\Spion3\Spion3\obj\Debug\netcoreapp3.1\Spion3.csprojAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\SpionExam\Spion3\Spion3\obj\Debug\netcoreapp3.1\Log.g.cs
+C:\Users\Admin\Documents\GitHub\SpionExam\Spion3\Spion3\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Admin\Documents\GitHub\SpionExam\Spion3\Spion3\obj\Debug\netcoreapp3.1\SecretWord.g.cs
+C:\Users\Admin\Documents\GitHub\SpionExam\Spion3\Spion3\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Admin\Documents\GitHub\SpionExam\Spion3\Spion3\obj\Debug\netcoreapp3.1\Spion3_MarkupCompile.cache
+C:\Users\Admin\Documents\GitHub\SpionExam\Spion3\Spion3\obj\Debug\netcoreapp3.1\Spion3_MarkupCompile.lref
+C:\Users\Admin\Documents\GitHub\SpionExam\Spion3\Spion3\obj\Debug\netcoreapp3.1\Log.baml
+C:\Users\Admin\Documents\GitHub\SpionExam\Spion3\Spion3\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Admin\Documents\GitHub\SpionExam\Spion3\Spion3\obj\Debug\netcoreapp3.1\SecretWord.baml
+C:\Users\Admin\Documents\GitHub\SpionExam\Spion3\Spion3\obj\Debug\netcoreapp3.1\Spion3.g.resources
+C:\Users\Admin\Documents\GitHub\SpionExam\Spion3\Spion3\obj\Debug\netcoreapp3.1\Spion3.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\GitHub\SpionExam\Spion3\Spion3\obj\Debug\netcoreapp3.1\Spion3.AssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\SpionExam\Spion3\Spion3\obj\Debug\netcoreapp3.1\Spion3.dll
+C:\Users\Admin\Documents\GitHub\SpionExam\Spion3\Spion3\obj\Debug\netcoreapp3.1\Spion3.pdb
