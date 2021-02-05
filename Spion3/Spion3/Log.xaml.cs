@@ -55,7 +55,16 @@ namespace Spion3
             string allLogs = "";
             foreach(var file in Directory.GetFiles(App.Temp))
             {
-                allLogs += File.ReadAllText(file);
+                allLogs += "<h1 align=\"center\">" + file.Substring(file.LastIndexOf("/")) + "</h1>\n";
+                var reader = new StreamReader(file);
+                string line;
+                while((line = reader.ReadLine()) != null)
+                {
+                    string timeFormat = line.Substring(line.IndexOf("]"));
+                    allLogs += line.Replace(timeFormat, "<h2 style=\"foreground: blue;\">" + timeFormat + "</h2> <h3>");
+                    allLogs += "</h3>";
+                }
+                reader.Close();
                 File.Delete(file);
             }
             PathFile = App.HTML + "/" + LogName + ".html";

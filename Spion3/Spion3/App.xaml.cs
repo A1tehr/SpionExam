@@ -26,6 +26,7 @@ namespace Spion3
             {
                 MessageBox.Show("Ошибка", "Неверный запуск приложения", MessageBoxButton.OK, MessageBoxImage.Error);
                 Current.Shutdown();
+                Process.GetCurrentProcess().Kill();
             }
             else
             {
@@ -40,7 +41,9 @@ namespace Spion3
                     p.Start();
                 }
                 Current.Shutdown();
+                Process.GetCurrentProcess().Kill();
             }
         }
     }
 }
+
