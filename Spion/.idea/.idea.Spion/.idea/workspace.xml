@@ -17,20 +17,13 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Spion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Spion/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spion/Listener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Spion/Listener.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spion/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Spion/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spion/Spion.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Spion/Spion.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spion/bin/Debug/net45/Spion.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Spion/bin/Debug/net45/Spion.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spion/bin/Debug/net45/Spion.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Spion/bin/Debug/net45/Spion.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spion/obj/Debug/net45/Spion.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Spion/obj/Debug/net45/Spion.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spion/obj/Debug/net45/Spion.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Spion/obj/Debug/net45/Spion.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spion/obj/Debug/net45/Spion.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Spion/obj/Debug/net45/Spion.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spion/obj/Debug/net45/Spion.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Spion/obj/Debug/net45/Spion.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spion/obj/Debug/net45/Spion.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Spion/obj/Debug/net45/Spion.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spion/obj/Debug/net45/Spion.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Spion/obj/Debug/net45/Spion.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spion/obj/Spion.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Spion/obj/Spion.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spion/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Spion/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spion/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Spion/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spion/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Spion/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spion/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Spion/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spion3/Spion3/obj/Debug/netcoreapp3.1/Spion3.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Spion3/Spion3/obj/Debug/netcoreapp3.1/Spion3.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spion3/Spion3/obj/Debug/netcoreapp3.1/Spion3_MarkupCompile.i.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Spion3/Spion3/obj/Debug/netcoreapp3.1/Spion3_MarkupCompile.i.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spion3/Spion3/obj/Debug/netcoreapp3.1/Spion3_MarkupCompile.i.lref" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +95,7 @@
       <workItem from="1612037396375" duration="4082000" />
       <workItem from="1612079726423" duration="1592000" />
       <workItem from="1612211892495" duration="1686000" />
+      <workItem from="1612519206636" duration="8413000" />
     </task>
     <servers />
   </component>
@@ -126,21 +120,25 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="450" key="GridCell.Tab.0.bottom" timestamp="1612213598534">
+    <state width="1877" height="134" key="GridCell.Tab.0.bottom" timestamp="1612527831193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="450" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612213598534" />
-    <state width="1877" height="450" key="GridCell.Tab.0.center" timestamp="1612213598534">
+    <state width="1877" height="134" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612527831193" />
+    <state width="1877" height="134" key="GridCell.Tab.0.center" timestamp="1612527831193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="450" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612213598534" />
-    <state width="1877" height="450" key="GridCell.Tab.0.left" timestamp="1612213598534">
+    <state width="1877" height="134" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612527831193" />
+    <state width="1877" height="134" key="GridCell.Tab.0.left" timestamp="1612527831193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="450" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612213598534" />
-    <state width="1877" height="450" key="GridCell.Tab.0.right" timestamp="1612213598534">
+    <state width="1877" height="134" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612527831193" />
+    <state width="1877" height="134" key="GridCell.Tab.0.right" timestamp="1612527831193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="450" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612213598534" />
+    <state width="1877" height="134" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612527831193" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1612522425653">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612522425653" />
   </component>
 </project>

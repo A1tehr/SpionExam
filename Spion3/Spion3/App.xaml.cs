@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
+using System.Diagnostics;
 using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows;
 
 namespace Spion3
@@ -24,7 +20,7 @@ namespace Spion3
             if (!Directory.Exists(PathConf)) Directory.CreateDirectory(PathConf);
             if (!Directory.Exists(HTML)) Directory.CreateDirectory(HTML);
             if (!Directory.Exists(Temp)) Directory.CreateDirectory(Temp);
-            /*
+            
             var args = e.Args;
             if (args.Length != 1)
             {
@@ -36,12 +32,15 @@ namespace Spion3
                 
                 var arg = args[0];
                 if (arg == "options") StartupUri = new Uri("MainWindow.xaml", UriKind.Relative);
+                else if (arg == "spion")
+                {
+                    Process p = new Process();
+                    p.StartInfo.FileName = Directory.GetCurrentDirectory() + "/Spion.exe";
+                    p.StartInfo.Arguments = "fsdhjfweohfgdnsvklhstsdfax";
+                    p.Start();
+                }
+                Current.Shutdown();
             }
-            */
-
-            StartupUri = new Uri("MainWindow.xaml", UriKind.Relative);
-            
-            
         }
     }
 }
