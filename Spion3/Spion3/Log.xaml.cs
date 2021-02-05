@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Diagnostics;
 using System.IO;
 using System.Windows;
 using System.Windows.Controls;
@@ -35,7 +36,14 @@ namespace Spion3
         private void Button_DeleteClick(object sender, RoutedEventArgs e)
         {
             MainWindow.Instance.StackPanel_Logs.Children.Remove(this);
-            File.Delete(PathFile);
+            try
+            {
+                File.Delete(PathFile);
+            } catch(Exception e1)
+            {
+                
+            }
+            
         }
 
         private void Button_OpenLogClick(object sender, RoutedEventArgs e)
@@ -60,7 +68,6 @@ namespace Spion3
                 string line;
                 while((line = reader.ReadLine()) != null)
                 {
-                    MessageBox.Show(line);
                     if (line.Contains("]"))
                     {
                         string timeFormat = line.Substring(0, line.IndexOf("]") + 1);
@@ -69,7 +76,7 @@ namespace Spion3
                     }
                 }
                 reader.Close();
-                //File.Delete(file);
+                File.Delete(file);
             }
             PathFile = App.HTML + "/" + LogName + ".html";
             File.Create(PathFile).Close();

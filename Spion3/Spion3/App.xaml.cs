@@ -22,9 +22,6 @@ namespace Spion3
             if (!Directory.Exists(HTML)) Directory.CreateDirectory(HTML);
             if (!Directory.Exists(Temp)) Directory.CreateDirectory(Temp);
 
-            StartupUri = new Uri("MainWindow.xaml", UriKind.Relative);
-            /*
-
             var args = e.Args;
             if (args.Length != 1)
             {
@@ -47,7 +44,6 @@ namespace Spion3
                     Process.GetCurrentProcess().Kill();
                 }
             }
-            */
         }
     }
 }

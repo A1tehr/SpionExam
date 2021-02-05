@@ -1,4 +1,5 @@
 ﻿using Microsoft.Win32;
+using System;
 using System.Diagnostics;
 using System.IO;
 using System.Windows;
@@ -83,12 +84,18 @@ namespace Spion3
                 } 
                     
                 Grid_Logs.Visibility = Visibility.Visible;
-
-                foreach(var file in Directory.GetFiles(App.HTML))
+                try
                 {
-                    new Log(file.Substring(file.LastIndexOf('\\') + 1));
+                    foreach (var file in Directory.GetFiles(App.HTML))
+                    {
+                        new Log(file.Substring(file.LastIndexOf('\\') + 1));
+                    }
+                    LogClicked = true;
+
+                } catch (Exception e1)
+                {
+                    MessageBox.Show(e1.Message);
                 }
-                LogClicked = true;
             }
             else
             {

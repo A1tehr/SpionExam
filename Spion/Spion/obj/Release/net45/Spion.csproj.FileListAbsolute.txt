@@ -1,0 +1,10 @@
+C:\Users\Admin\Documents\GitHub\SpionExam\Spion\Spion\bin\Release\net45\Spion.exe.config
+C:\Users\Admin\Documents\GitHub\SpionExam\Spion\Spion\bin\Release\net45\Spion.exe
+C:\Users\Admin\Documents\GitHub\SpionExam\Spion\Spion\bin\Release\net45\Spion.pdb
+C:\Users\Admin\Documents\GitHub\SpionExam\Spion\Spion\bin\Release\net45\Gma.System.MouseKeyHook.dll
+C:\Users\Admin\Documents\GitHub\SpionExam\Spion\Spion\obj\Release\net45\Spion.csprojAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\SpionExam\Spion\Spion\obj\Release\net45\Spion.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\GitHub\SpionExam\Spion\Spion\obj\Release\net45\Spion.AssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\SpionExam\Spion\Spion\obj\Release\net45\Spion.csproj.CopyComplete
+C:\Users\Admin\Documents\GitHub\SpionExam\Spion\Spion\obj\Release\net45\Spion.exe
+C:\Users\Admin\Documents\GitHub\SpionExam\Spion\Spion\obj\Release\net45\Spion.pdb
