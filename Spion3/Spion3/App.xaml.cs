@@ -17,6 +17,9 @@ namespace Spion3
 
         private void Application_Startup(object sender, StartupEventArgs e)
         {
+            StartupUri = new Uri("MainWindow.xaml", UriKind.Relative);
+
+            /*
             if (!Directory.Exists(PathConf)) Directory.CreateDirectory(PathConf);
             if (!Directory.Exists(HTML)) Directory.CreateDirectory(HTML);
             if (!Directory.Exists(Temp)) Directory.CreateDirectory(Temp);
@@ -43,6 +46,7 @@ namespace Spion3
                 Current.Shutdown();
                 Process.GetCurrentProcess().Kill();
             }
+            */
         }
     }
 }
