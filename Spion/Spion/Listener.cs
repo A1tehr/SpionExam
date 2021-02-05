@@ -52,16 +52,21 @@ namespace Spion
             {
                 isWord = true;
             }
+
             if (isWord)
             {
                 word += chr;
             }
             else
             {
-                if (secreteWords.Contains(word))
+                foreach(var w in secreteWords)
                 {
-                    word = "";
-                    MessageBox.Show("Вы ввели секретное слово!", "Поздравляю!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    if (word.Contains(w))
+                    {
+                        word = "";
+                        MessageBox.Show("Вы ввели секретное слово!", "Поздравляю!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        break;
+                    }
                 }
                 
             }
@@ -76,7 +81,7 @@ namespace Spion
                 secreteWords.Add(word);
             }
             var now = DateTime.Now;
-            string path = $"{Directory.GetCurrentDirectory()}/logs/temp/{now.Year}.{now.Month}.{now.Day}_{now.Hour}.txt";
+            string path = $"{Directory.GetCurrentDirectory()}/logs/temp/{now.Year}_{now.Month}_{now.Day}_{now.Hour}.txt";
             if (!File.Exists(path))
             {
                 file = path;
@@ -87,7 +92,7 @@ namespace Spion
         {
             CheckCreateFile();
             var writer = new StreamWriter(file, true);
-            writer.WriteAsync($"[{DateTime.Now.Hour}:{DateTime.Now.Minute}]");
+            writer.WriteAsync($"[{DateTime.Now.Hour}:{DateTime.Now.Minute}] ");
             writer.WriteLineAsync(buffer);
             writer.Close();
             buffer = "";

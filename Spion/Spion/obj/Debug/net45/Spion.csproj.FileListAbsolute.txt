@@ -9,3 +9,13 @@ D:\Lexus\GitHub Projects\SpionExam\Spion\Spion\obj\Debug\net45\Spion.exe
 D:\Lexus\GitHub Projects\SpionExam\Spion\Spion\obj\Debug\net45\Spion.pdb
 D:\Lexus\GitHub Projects\SpionExam\Spion\Spion\bin\Debug\net45\Gma.System.MouseKeyHook.dll
 D:\Lexus\GitHub Projects\SpionExam\Spion\Spion\obj\Debug\net45\Spion.csproj.CopyComplete
+C:\Users\Admin\Documents\GitHub\SpionExam\Spion\Spion\bin\Debug\net45\Spion.exe.config
+C:\Users\Admin\Documents\GitHub\SpionExam\Spion\Spion\bin\Debug\net45\Spion.exe
+C:\Users\Admin\Documents\GitHub\SpionExam\Spion\Spion\bin\Debug\net45\Spion.pdb
+C:\Users\Admin\Documents\GitHub\SpionExam\Spion\Spion\bin\Debug\net45\Gma.System.MouseKeyHook.dll
+C:\Users\Admin\Documents\GitHub\SpionExam\Spion\Spion\obj\Debug\net45\Spion.csprojAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\SpionExam\Spion\Spion\obj\Debug\net45\Spion.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\GitHub\SpionExam\Spion\Spion\obj\Debug\net45\Spion.AssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\SpionExam\Spion\Spion\obj\Debug\net45\Spion.csproj.CopyComplete
+C:\Users\Admin\Documents\GitHub\SpionExam\Spion\Spion\obj\Debug\net45\Spion.exe
+C:\Users\Admin\Documents\GitHub\SpionExam\Spion\Spion\obj\Debug\net45\Spion.pdb

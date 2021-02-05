@@ -17,17 +17,18 @@ namespace Spion3
 
         private void Application_Startup(object sender, StartupEventArgs e)
         {
-            StartupUri = new Uri("MainWindow.xaml", UriKind.Relative);
 
-            /*
             if (!Directory.Exists(PathConf)) Directory.CreateDirectory(PathConf);
             if (!Directory.Exists(HTML)) Directory.CreateDirectory(HTML);
             if (!Directory.Exists(Temp)) Directory.CreateDirectory(Temp);
-            
+
+            StartupUri = new Uri("MainWindow.xaml", UriKind.Relative);
+            /*
+
             var args = e.Args;
             if (args.Length != 1)
             {
-                MessageBox.Show("Ошибка", "Неверный запуск приложения", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("Неверный запуск приложения", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
                 Current.Shutdown();
                 Process.GetCurrentProcess().Kill();
             }
@@ -42,9 +43,9 @@ namespace Spion3
                     p.StartInfo.FileName = Directory.GetCurrentDirectory() + "/Spion.exe";
                     p.StartInfo.Arguments = "fsdhjfweohfgdnsvklhstsdfax";
                     p.Start();
+                    Current.Shutdown();
+                    Process.GetCurrentProcess().Kill();
                 }
-                Current.Shutdown();
-                Process.GetCurrentProcess().Kill();
             }
             */
         }

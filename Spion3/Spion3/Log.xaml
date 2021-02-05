@@ -14,7 +14,7 @@
         <TextBox x:Name="TextBox_NameLog" TextWrapping="Wrap" VerticalAlignment="Center" Text="Текс" FontSize="25" FontWeight="DemiBold" BorderThickness="0" Background="Transparent" IsEnabled="False" Foreground="#FF0CFF00" />
 
         <Grid VerticalAlignment="Center" Margin="2" Grid.Column="1">
-            <Grid x:Name="Grid_Save" Margin="3">
+            <Grid x:Name="Grid_Save" Margin="3" Visibility="Visible">
                 <Image Source="images/save.png" Stretch="Fill" RenderOptions.BitmapScalingMode="Fant"/>
                 <Button Opacity="0" Cursor="Hand" Click="Button_SaveLogClick"/>
             </Grid>

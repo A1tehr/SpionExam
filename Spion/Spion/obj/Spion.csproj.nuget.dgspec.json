@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Lexus\\GitHub Projects\\SpionExam\\Spion\\Spion\\Spion.csproj": {}
+    "C:\\Users\\Admin\\Documents\\GitHub\\SpionExam\\Spion\\Spion\\Spion.csproj": {}
   },
   "projects": {
-    "D:\\Lexus\\GitHub Projects\\SpionExam\\Spion\\Spion\\Spion.csproj": {
+    "C:\\Users\\Admin\\Documents\\GitHub\\SpionExam\\Spion\\Spion\\Spion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Lexus\\GitHub Projects\\SpionExam\\Spion\\Spion\\Spion.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\SpionExam\\Spion\\Spion\\Spion.csproj",
         "projectName": "Spion",
-        "projectPath": "D:\\Lexus\\GitHub Projects\\SpionExam\\Spion\\Spion\\Spion.csproj",
-        "packagesPath": "C:\\Users\\villi\\.nuget\\packages\\",
-        "outputPath": "D:\\Lexus\\GitHub Projects\\SpionExam\\Spion\\Spion\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\SpionExam\\Spion\\Spion\\Spion.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\SpionExam\\Spion\\Spion\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\villi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net45"
@@ -30,7 +26,6 @@
         },
         "frameworks": {
           "net45": {
-            "targetAlias": "net45",
             "projectReferences": {}
           }
         },
@@ -42,14 +37,13 @@
       },
       "frameworks": {
         "net45": {
-          "targetAlias": "net45",
           "dependencies": {
             "MouseKeyHook": {
               "target": "Package",
               "version": "[5.6.0, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

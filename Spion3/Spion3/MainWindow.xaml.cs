@@ -88,7 +88,6 @@ namespace Spion3
                 {
                     new Log(file.Substring(file.LastIndexOf('\\') + 1));
                 }
-
                 LogClicked = true;
             }
             else
@@ -122,13 +121,13 @@ namespace Spion3
 
         private void Button_CloseSpionClick(object sender, RoutedEventArgs e)
         {
-            Button_StartSpion.Visibility = Visibility.Visible;
-            Button_CloseSpion.Visibility = Visibility.Collapsed;
             var procces = Process.GetProcessesByName("Spion");
-            foreach(var proc in procces)
+            foreach (var proc in procces)
             {
                 proc.Kill();
             }
+            Button_StartSpion.Visibility = Visibility.Visible;
+            Button_CloseSpion.Visibility = Visibility.Collapsed;
         }
     }
 }
